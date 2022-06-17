@@ -32,7 +32,7 @@ class RecyclerViewAdapter: PagingDataAdapter<CharacterData, RecyclerViewAdapter.
             tvName.text = data.name
             tvDesc.text = data.species
             status.text = data.status
-            //gender.text = data.gender
+            gender.text = data.gender
             Glide.with(imageView)
                 .load(data.image)
                 .circleCrop()
